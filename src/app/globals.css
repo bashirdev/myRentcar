@@ -2,26 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@keyframes slide {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.infinite-slide {
+  animation: slide 2s infinite;
 }
+
+.smooth-animation {
+  //animation: slide 0.5s ease-in-out infinite;
+  transform: translate3d(0, 0, 0);
+  animation: slide 3s ease-in-out infinite;
+}
+
+.tab-bordered{
+    border-color:blue !important;
+}
+
+@layer components{
+    .size-selector input:checked + label{
+        @apply bg-primary text-white;
+    }
+
+    .color-selector input:checked + label{
+        @apply ring-2 ring-primary;
+    }
+
+    .input-box {
+        @apply w-full  border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400
+    }
+    .input-range input[type=range]::-webkit-slider-thumb{
+    @apply bg-custom !important
+    }
+}
+
+   
