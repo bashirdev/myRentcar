@@ -7,12 +7,8 @@ import { Car } from '@/types/type';
 
 const Product = () => {
  
-
 const [filterItems, setFilterItems] =useState<Car[]>([])
-const [ItemsAll, setItemsAllSet] =useState<Car[]>([])
 const [basicActive, setBasicActive] = useState('')
-
-const [perPage, setPerPage] = useState(8)
 
 //@ts-ignore
 const categories = [...new Set(dummyCars?.map(item => item.carName))]; 
@@ -86,16 +82,16 @@ if(dummyCars?.length > 0){
         <div className='container py-6 pb-16'>
         <div className="text-center">
         <h4 className='text-[18px]  text-blue-600 py-1'>WHAT WE OFFER</h4>
-          <h1 className='text-2xl font-bold '>CHOOSE YOUR CAR</h1>
+          <h1 className='text-2xl font-bold border-b-2 border-indigo-800 inline-block '>CHOOSE YOUR CAR</h1>
           <p className='text-[16] max-w-[400px] text-center m-auto py-3 mb-10'>Proin gravida nibh vel velit auctor  aliquet. Aenean sollicitudin, lorem
            quis bibendum auctor.</p>
         </div>
         <div className='flex justify-center items-center mb-[50px]'>
            <div className="tabs ">
-           <button onClick={itemAllSet} className={`tab tab-lifted ${basicActive === 'All' ? `tab-active text-blue-800 text-2xl` : 'tab-lifted'} text-2xl`}>All</button>
+           <button onClick={itemAllSet} className={`tab tab-lifted ${basicActive === 'All' ? `tab-active text-blue-800 font-bold text-2xl` : 'tab-lifted'} text-2xl`}>All</button>
                {categories?.map((items,ind)=>(
                 <div key={ind}>
-                     <button onClick={()=>handleFilterItem(items)} className={`tab tab-bordered font-bold  ${basicActive === items ? `tab-active text-blue-800 text-2xl ` : 'tab-lifted'}`}>{items}</button> 
+                     <button onClick={()=>handleFilterItem(items)} className={`tab  font-bold  ${basicActive === items ? `tab-active text-blue-800 text-2xl tab-lifted ` : 'tab-lifted'}`}>{items}</button> 
                 </div>
                ))}
              
@@ -109,8 +105,8 @@ if(dummyCars?.length > 0){
            
               </div>
               <div className="flex justify-center items-center gap-5 mt-[50px] ">
-  <button onClick={handleShowLess} className="btn btn-outline w-[300px]">Previous page</button>
-  <button onClick={handleShowMore} className="btn btn-outline w-[300px]">Next</button>
+  <button onClick={handleShowLess} className="btn btn-outline w-[150px] sm:w-[300px]">Previous page</button>
+  <button onClick={handleShowMore} className="btn btn-outline w-[150px] sm:w-[300px]">Next</button>
 </div>
          
         </div>

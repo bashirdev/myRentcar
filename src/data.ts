@@ -53,12 +53,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 4.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 4.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },
@@ -95,12 +103,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 3.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 2.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },
@@ -137,12 +153,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 3,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 4.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },
@@ -180,12 +204,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 4.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 4.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },
@@ -222,12 +254,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 3.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 4.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },
@@ -264,12 +304,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 4.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 4.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },
@@ -306,12 +354,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 4.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 4.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },
@@ -348,12 +404,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 4.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 4.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },
@@ -390,12 +454,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 4.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 4.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },
@@ -432,12 +504,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 4.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 4.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },
@@ -474,12 +554,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 4.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 4.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },
@@ -516,7 +604,11 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 4.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
@@ -541,7 +633,7 @@ const dummyCars: Car[] = [
     features: ["GPS", "Bluetooth", "Leather Seats"],
     imageURLs: ["/assets/img/c8.png", "/assets/img/c4.png"],
     location: "Downtown Branch",
-    availabilityStatus: true,
+    availabilityStatus: false,
     insuranceInfo: {
       provider: "XYZ Insurance",
       coverageType: "Comprehensive",
@@ -558,12 +650,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 3.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 4.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },
@@ -600,12 +700,20 @@ const dummyCars: Car[] = [
           {
             username: "User1",
             rating: 4.5,
-            comment: "Great car, smooth ride!",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
           {
             username: "User2",
             rating: 4.0,
-            comment: "Very comfortable seats.",
+            comment: `"Renting a car from [Car Rental Service Name] was an exceptional experience. The process was seamless, and the quality of the vehicles provided exceeded my expectations. The car was clean, well-maintained, and delivered to my location on time.
+
+            The customer service team was incredibly helpful, answering all of my questions and guiding me through the rental process. Their flexibility in terms of pick-up and drop-off times made my trip stress-free.
+            
+            I appreciated the transparent pricing and no hidden fees. "`,
           },
         ],
       },

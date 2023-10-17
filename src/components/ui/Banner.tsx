@@ -45,7 +45,7 @@ const Banner = () => {
 
 
     return (
-  <div  className='relative'>
+  <div  className='relative container overflow-x-hidden'>
      
       
         {/* slider */}
@@ -72,15 +72,19 @@ const Banner = () => {
                   <div className="flex  justify-center items-center relative ">
                      <div className="container grid grid-cols-1 lg:grid-flow-row  lg:grid-cols-2  gap-6 justify-center items-center ">
                              <div className=" text-white pl-5 lg:pl-10  ">
-                                  <h1 className='text-[30px] pt-[400px] lg:pt-[0px] md:pt-[40px] lg:leading-[60px]  lg:text-[60px]'>{SliderData[currentIndex].title}</h1>
+                                  <h1 className='text-[22px] pt-[350px] sm:pt-[215px]  md:pt-[40px] lg:pt-[0px] lg:leading-[60px] sm:text-[30px] md:text-[60px] lg:text-[60px]'>{SliderData[currentIndex].title}</h1>
                                   <p className='text-[16px] max-w-sm py-5'>{SliderData[currentIndex].description}<span className='text-[#4F5DEC] pl-1'>Starting @ $20</span> </p>
-                               <div className='flex gap-3'>
-                               <button className=' bg-[#4F5DEC] py-[12px]
-                                text-white rounded-md px-[40px]'>
+                               <div className='flex gap-3 sm:gap-3'>
+                               <button className='
+                                   px-[15px] py-[5px] sm:px-[18px] md:px-[20px] lg:px[20px]
+                                bg-[#4F5DEC] 
+                                text-white rounded-md text-[14px] sm:text-[16px] md:text-[18px] lg:text-[18px]'>
                                      ABout Us
                                  </button>
-                               <button className='ring-1 border-[#4F5DEC] hover:bg-[#4F5DEC] py-[12px]
-                                text-white rounded-md px-[20px] md:px-[40px] lg:px=[40px]'>
+                               <button className='
+                                    px-[15px] py-[10px] sm:px-[18px] md:px-[20px] lg:px[20px]
+                               ring-1 border-[#4F5DEC] hover:bg-[#4F5DEC] 
+                                text-white rounded-md  text-[14px] sm:text-[16px] md:text-[18px] lg:text-[18px]'>
                                   Contact Us
                                  </button>
                                </div>

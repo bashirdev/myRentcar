@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Slider from 'react-slick';
 import car from '../../../public/assets/img/slider3.jpg'
+import Facilicty from './Facilicty';
 
 const FeaturedSection = () => {
    
@@ -16,24 +17,28 @@ const FeaturedSection = () => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 500,
+       
         autoplay:true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        
+        arrows: false,
+        autoplaySpeed: 7000,
       };
 
 
 
     return (
+        <>
+        <Facilicty />
         <div className='py-[100px] text-center'>
-        <h2 className='text-3xl  text-[#111] border-b-2 border-indigo-800 inline-block'>Brand</h2>
+        <h2 className='text-[#111] border-b-2 border-indigo-800 inline-block text-2xl font-bold '>Brand</h2>
+        <p className='text-[16] max-w-[400px] text-center m-auto py-2 '>Proin gravida nibh vel velit auctor  aliquet. Aenean sollicitudin, lorem
+           quis bibendum auctor.</p>
+ <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 items-center pt-[50px]">
         
-      <div className="container mx-auto grid grid-cols-2 gap-4 items-center pt-[50px]">
-        
-  <div className="col-span-1">
+  <div className="col-span-12 sm:col-span-1  md:col-span-1 lg:col-span-1">
       {/* images */}
-      <div className="col-span-5  md:block lg:block sm:block  hidden overflow-hidden text-gray-700 ">
+      <div className="col-span-5  overflow-hidden md:block lg:block sm:block   text-gray-700 ">
           <div className="flex flex-1 flex-wrap items-center justify-center">
                 <div className="flex flex-wrap w-full ">
                     <div className="w-1/2 p-1 md:p-2">
@@ -47,7 +52,7 @@ const FeaturedSection = () => {
                         <Image alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
                         src={`${item.imageURLs[0]}`} height={200} width={200} />
                         
-                        <Link href={`/productDetails/${item.id}`} className="absolute w-full px-5 py-2 text-[#fff] bg-[#111]  hover:bg-blue-600 hover:text-[#111] transition rounded-md">{item.carName}</Link>
+                        <Link href={`/productDetails/${item.id}`} className="absolute w-full px-5 py-2 text-[#fff] opacity-70 bg-[#111]  hover:bg-blue-600 hover:text-[#111] transition rounded-md">{item.carName}</Link>
                         </div>
                     
                         </div> 
@@ -63,7 +68,7 @@ const FeaturedSection = () => {
                         <Image alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
                         src={`${item.imageURLs[0]}`} height={200} width={200} />
                     
-                    <Link href={`/productDetails/${item.id}`} className="absolute w-full px-5 py-2 text-[#fff] bg-[#111]  hover:bg-blue-600 hover:text-[#111] transition rounded-md">{item.carName}</Link>
+                    <Link href={`/productDetails/${item.id}`} className="absolute w-full px-5 py-2 text-[#fff] opacity-70 bg-[#111]  hover:bg-blue-600 hover:text-[#111] transition rounded-md">{item.carName}</Link>
                     </div>
                 
                     </div> 
@@ -81,7 +86,7 @@ const FeaturedSection = () => {
                         <Image alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
                         src={`${item.imageURLs[0]}`} height={200} width={200} />
                         
-                        <Link href={`/productDetails/${item.id}`} className="absolute w-full px-5 py-2 text-[#fff] bg-[#111]  hover:bg-blue-600 hover:text-[#111] transition rounded-md">{item.carName}</Link>
+                        <Link href={`/productDetails/${item.id}`} className="absolute w-full px-5 py-2 text-[#fff] opacity-70 bg-[#111]  hover:bg-blue-600 hover:text-[#111] transition rounded-md">{item.carName}</Link>
                         </div>
                     
                         </div> 
@@ -97,7 +102,7 @@ const FeaturedSection = () => {
          <Image alt="gallery" className="block object-cover object-center w-full  rounded-lg"
         src={`${item.imageURLs[0]}`} height={200} width={200} />
      
-         <Link href={`/productDetails/${item.id}`} className="absolute w-full px-5 py-2 text-[#fff] bg-[#111]  hover:bg-blue-600 hover:text-[#111] transition rounded-md">{item.carName}</Link>
+     <Link href={`/productDetails/${item.id}`} className="absolute w-full px-5 py-2 text-[#fff] opacity-70 bg-[#111]  hover:bg-blue-600 hover:text-[#111] transition rounded-md">{item.carName}</Link>
       </div>
   
        </div> 
@@ -114,7 +119,7 @@ const FeaturedSection = () => {
         {/*end images */}
   </div>
 
-  <div className="col-span-1 ">
+  <div className="col-span-12 sm:col-span-1  md:col-span-1 lg:col-span-1  ">
 
   
   <Slider {...settings}>
@@ -145,12 +150,14 @@ const FeaturedSection = () => {
     </Slider>
   
   </div>
+
 </div>
 
   
             
 
         </div>
+        </>
     );
 };
 

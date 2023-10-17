@@ -39,12 +39,12 @@ const Mininav = () => {
                 <ul className="menu menu-horizontal px-1">
                     <li>
                         <Link href='/' className="flex gap-[10px] text-gray-300 hover:text-[#4F5CEC] transition-text ease-linear duration-75   ">
-                            <BsFacebook className='text-1xl  ' />  
+                            <BsFacebook className='text-2xl  ' />  
                         </Link>
                         </li>
                     <li>
                         <Link  href='/' className=" gap-[10px] text-gray-300 hover:text-[#4F5CEC] ">
-                                    <BsInstagram className='text-1xl  ' />
+                                    <BsInstagram className='text-2xl  ' />
                                     
                         </Link>
                     </li>

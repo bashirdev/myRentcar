@@ -2,6 +2,8 @@
 import React,{useRef, useState} from 'react';
 import { IoMdCheckboxOutline, IoMdTime } from 'react-icons/io';
 import Modal from './Modal';
+import  BannerShapes  from '../../../public/assets/img/Union.svg'
+
 
 const BannerCard = () => {
    const [formData, setFormData] = useState([]) as any
@@ -32,7 +34,7 @@ const BannerCard = () => {
     setIsChecked(!isChecked);
     
   };
-  
+
   const ModalOpen=()=>{
    //@ts-ignore
    document.getElementById('my_modal_3').showModal()
@@ -42,11 +44,12 @@ const BannerCard = () => {
 
     return (
         <div>
-             <div className={`bg-white rounded-md bg-center   lg:relative   lg:h-[600px]  overflow-hidden bg-cover z-10  `}>
+             <div className={`bg-white rounded-md bg-center  shadow-md  lg:relative   lg:h-[600px]  overflow-hidden bg-cover z-10  `}>
                          <div  className="relative">
                             {/* <Image src={BannerShapes} alt='shapes' width={600} height={300} /> */}
                             <div className="bg-blue-600 w-[400px] py-5 px-3 ">
-                                <h1 className=' text-white text-1xl '>LET’S FIND YOUR PERFECT CAR</h1>  
+                                <h1 className=' text-white text-[12px] sm:text[14px] md:text-2xl '>
+                                 LET’S FIND YOUR PERFECT CAR</h1>  
                             </div>
                             
                             <div className='w-full  px-5'>
@@ -78,12 +81,12 @@ const BannerCard = () => {
                         {/* DATE End */}
                         {/* Time */}
 
-                        <div className="flex flex-col justify-between space-x-3 w-full  md:flex-row">
-                          <div className="flex justify-start  w-full space-x-2 relative">
-                          <div className='absolute hidden xl:block md:left-[90px] top-[30%]'>
+                        <div className="flex flex-col justify-between  w-full sm:flex-col md:flex-row space-y-3">
+                          <div className="flex justify-start  w-full sspace-x-0 sm:space-x-2 md:space-x-2 lg:space-x-2 relative">
+                          <div className='absolute hidden xl:block  md:left-[90px] top-[30%]'>
                              <IoMdTime className='text-blue-600' /> 
                           </div>
-                              <select ref={(input)=> pikupUpTimeRef=input} defaultValue='' className="border py-2 rounded-md w-full ">
+                              <select ref={(input)=> pikupUpTimeRef=input} defaultValue='' className="border  py-2 rounded-md w-full ">
                                 <option value="00:00">00:00</option>
                                 <option value="01:00">01:00</option>
                                 <option value="02:00">02:00</option>
@@ -93,14 +96,14 @@ const BannerCard = () => {
                               <div className='absolute hidden xl:block right-6 top-[30%]'>
                              <IoMdTime className='text-blue-600' /> 
                           </div>
-                             <select ref={(input)=> pickupMinuteRef=input} defaultValue='' className="border py-2 rounded-md w-full ">
+                             <select ref={(input)=> pickupMinuteRef=input} defaultValue='' className="border  py-2 rounded-md w-full ">
                                 <option value="00">00</option>
                                 <option value="15">15</option>
                                 <option value="30">30</option>
                                 <option value="45">45</option>
                             </select>
                            </div>
-                          <div className="flex justify-start  w-full space-x-2 relative">
+                          <div className="flex justify-start  w-full sspace-x-0 sm:space-x-2 md:space-x-2 lg:space-x-2 relative">
                           <div className='absolute hidden xl:block left-[90px] top-[30%]'>
                              <IoMdTime className='text-blue-600' /> 
                           </div>
@@ -137,20 +140,20 @@ const BannerCard = () => {
                       </label>
                  
                </div>
-               <div className="flex justify-between items-center  ">
+               <div className="flex justify-between  space-y-3 flex-col sm:flex-row sm:items-center ">
                 <div className='flex-1 items-center  space-x-2'>
                     <label className="">
-                       <p className='flex flex-row w-full items-center'>
+                       <p className='flex flex-row  w-full items-center'>
                        <IoMdCheckboxOutline /> 
-                        <span className='pl-2'> 24/7 Phone Support</span>
+                        <span className='pl-2 text-[12px] sm:text-[16px]'> 24/7 Phone Support</span>
                        </p>
-                       <p className='flex flex-row w-full items-center'>
+                       <p className='flex flex-row  w-full items-center'>
                        <IoMdCheckboxOutline /> 
-                        <span className='pl-2'>No Credit Card Fees</span>
+                        <span className='pl-2 text-[12px] sm:text-[16px]'>No Credit Card Fees</span>
                        </p>
-                       <p className='flex flex-row w-full items-center'>
+                       <p className='flex flex-row  w-full items-center'>
                        <IoMdCheckboxOutline /> 
-                        <span className='pl-2'>No Ammendmends Fees</span>
+                        <span className='pl-2 text-[12px] sm:text-[16px]'>No Ammendmends Fees</span>
                        </p>
                       
                    </label>

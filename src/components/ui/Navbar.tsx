@@ -3,6 +3,7 @@ import {useState} from 'react'
 import Image from "next/image";
 import logo from "../../../public/assets/img/logo.png"
 
+import {RiMenu3Line} from "react-icons/ri";
 import {AiOutlineMenu, AiOutlineShoppingCart} from "react-icons/ai";
 import Link from "next/link";
 import Mininav from "./Mininav";
@@ -21,12 +22,12 @@ const navLink=[
   {
     id:3,
     title:'Services',
-    link:'/services'
+    link:'/'
   },
   {
     id:4,
     title:'Contact Us',
-    link:'/contac-us'
+    link:'/'
   },
 ]
 
@@ -71,10 +72,10 @@ const Navbar = () => {
  
   <div className="md:hidden ">
       <button
-        className=" md:hidden  absolute top-3 z-10 text-white right-3 px-2 py-1  hover:text-gray-600"
+        className=" md:hidden  absolute top-3 z-10 text-[#111] right-3 px-2 py-1  hover:text-gray-600"
         onClick={toggleMenu}
       >
-        <AiOutlineMenu />
+        <RiMenu3Line />
       </button>
       {isOpen && (
        
